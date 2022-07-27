@@ -22,7 +22,9 @@ class ListView1Screen extends StatelessWidget {
                       title: Text(game),
                       trailing: Icon(Icons.arrow_forward_ios_outlined),
                     ))
-                .toList()
+                .toList(),
+            Divider()
+
             // ListTile(
             //   leading: Icon(Icons.add_circle_outlined),
             //   title: Text('hola mundo'),
