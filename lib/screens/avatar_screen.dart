@@ -20,10 +20,11 @@ class AvatarScreen extends StatelessWidget {
       ),
       body: const Center(
         child: CircleAvatar(
-            maxRadius: 100,
-            backgroundImage: NetworkImage(
-              'https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/09/Hunter-%C3%97-Hunter-Este-increible-cosplay-de-Hisoka-te-cortara-el-aliento.png',
-            )),
+          maxRadius: 100,
+          backgroundImage: NetworkImage(
+            'https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/09/Hunter-%C3%97-Hunter-Este-increible-cosplay-de-Hisoka-te-cortara-el-aliento.png',
+          ),
+        ),
       ),
     );
   }
